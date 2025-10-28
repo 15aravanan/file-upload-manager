@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#fileList {
+    margin-top: 20px;
+}
+
+.file-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.file-item:last-child {
+    border-bottom: none;
+}
+
+.file-name {
+    font-weight: bold;
+}
+
+.file-size {
+    color: #666;
+}
+
+.file-type {
+    font-size: 14px;
+    color: #999;
+}
+
+.file-upload {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.file-upload:hover {
+    background-color: #f0f0f0;
+}
+
+.upload-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: #3e8e41;
+}
+
+.file-list-header {
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.file-list-header span {
+    display: inline-block;
+    width: 30%;
+}
+
+.file-list-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.file-list-item:last-child {
+    border-bottom: none;
+}
+
+.file-list-item span {
+    display: inline-block;
+    width: 30%;
+}
+
+.file-actions {
+    text-align: right;
+}
+
+.file-actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.file-actions button:hover {
+    background-color: #3e8e41;
+}
+
+/* Add more styles as needed */
